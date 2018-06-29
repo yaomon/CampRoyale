@@ -1,5 +1,5 @@
 var type = network_socket_tcp;
-var ip = "127.0.0.1";//get_string("Enter ip adress:", "");
+var ip = get_string("Enter ip adress:", "");
 var port = 8000;
 socket = network_create_socket(type);
 connection = network_connect(socket, ip, port);
@@ -18,3 +18,8 @@ buff = buffer_create(256, buffer_grow, 1);
 // Create a list to hold ALL sprites sent from the server
 allsprites = ds_list_create();
 sprites = 0;
+plhealth = 100;
+damage = 1;
+range = 1;
+knockback = 1;
+movespeed = 1;

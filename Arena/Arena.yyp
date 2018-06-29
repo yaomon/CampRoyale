@@ -2,7 +2,7 @@
     "id": "fbf95793-18de-406a-8365-380f6a2d5019",
     "modelName": "GMProject",
     "mvc": "1.0",
-    "IsDnDProject": true,
+    "IsDnDProject": false,
     "configs": [
         
     ],
@@ -127,11 +127,11 @@
             }
         },
         {
-            "Key": "48b54474-60fc-46a3-8dd8-39c46795d975",
+            "Key": "38e4d0a1-41a4-4d92-8e11-2cbc71aed773",
             "Value": {
-                "id": "a69021c9-2189-4b94-9245-d40b0a3f054b",
-                "resourcePath": "objects\\Player\\Player.yy",
-                "resourceType": "GMObject"
+                "id": "cdd0faea-d1f2-440b-9c1d-35edaabef8ed",
+                "resourcePath": "scripts\\SendKey\\SendKey.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -455,14 +455,6 @@
             }
         },
         {
-            "Key": "f1edbf56-4714-4f7f-a4fc-566598001659",
-            "Value": {
-                "id": "73cf6475-f6df-491c-ad11-217c7fe22e78",
-                "resourcePath": "objects\\slash\\slash.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
                 "id": "be94c0b5-a3c3-46be-bd05-54de198a01b6",
@@ -488,7 +480,7 @@
         }
     ],
     "script_order": [
-        
+        "38e4d0a1-41a4-4d92-8e11-2cbc71aed773"
     ],
     "tutorial": ""
 }
